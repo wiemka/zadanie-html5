@@ -1,14 +1,22 @@
 body {
     margin: 0;
     font-family: 'lato', sans-serif;
-    }
+}
 
-#menu {
+nav#menu {
     background-color: #222;
     text-align: center;
-    color: #222;
     }
-#menu a{
+
+nav#menu>ul>li.menu-item {
+    display: inline;
+}
+nav#menu > ul {
+    margin: 0;
+    padding: 15px;
+}
+nav#menu a {
     color: white;
     text-decoration: none;
+    padding: 20px;
 }
