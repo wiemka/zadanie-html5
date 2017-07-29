@@ -43,8 +43,7 @@ nav#menu a:hover {
 
 img {
     width: 100%;
-    }
-
+}
 
 #main-header-text {
     position: absolute;
@@ -58,28 +57,51 @@ img {
     color: white;
 }
 
+
 /*koniec ustawień header*/
+
 
 /*ustawienia about*/
 
-#about{
+#about {
     margin 30px 0;
     padding: 0 50px;
     text-align: center;
-    
 }
 
-#about-header{
+#about-header {
     font-size: 30px;
     margin-bottom: 20px;
-    
 }
+
 
 /*koniec ustawień about*/
 
+#contact {
+    text-align: center;
+    padding: 30px 50px;
+    background: #222;
+    color: white;
+}
+
+h2#contact-header {
+    font-size: 30px;
+}
+
+#contact-content {
+    font-style: normal;
+}
+
+footer a {
+    color: white
+}
+
+footer a:hover {
+    color: gray;
+}
+
 
 /*ustawienia kontakt*/
-
 
 
 /*koniec ustawień kontakt*/
