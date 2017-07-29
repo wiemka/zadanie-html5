@@ -3,6 +3,8 @@ body {
     font-family: 'lato', sans-serif;
 }
 
+/*ustawienia menu*/
+
 nav#menu {
     background-color: #222;
     text-align: center;
@@ -19,8 +21,10 @@ nav#menu > ul {
 nav#menu a {
     color: white;
     text-decoration: none;
-    padding: 20px;
+    padding: 25px;
 }
+
+/*koniec ustawień menu*/
 
 #header > h1 > main-header-text{
     position: absolute
