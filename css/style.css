@@ -8,25 +8,34 @@ body {
 nav#menu {
     background-color: #222;
     text-align: center;
-    padding: 10px
+    }
+
+nav#menu > ul {
+    margin: 0;
     }
 
 nav#menu>ul>li.menu-item {
-    display: inline;
+    display: inline-block;
+    padding: 25px;
+    list-style: none;
 }
-nav#menu > ul {
-    margin: 0;
-    padding: 15px;
-}
+
 nav#menu a {
     color: white;
     text-decoration: none;
-    padding: 25px;
 }
 
+nav#menu a:hover {
+    color: gray;
+    }
 /*koniec ustawień menu*/
+
+/*ustawienia header*/
 
 #header > h1 > main-header-text{
     position: absolute
 }
+
+/*koniec ustawień header*/
+
 
