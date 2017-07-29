@@ -6,6 +6,7 @@ body {
 nav#menu {
     background-color: #222;
     text-align: center;
+    padding: 10px
     }
 
 nav#menu>ul>li.menu-item {
@@ -20,3 +21,8 @@ nav#menu a {
     text-decoration: none;
     padding: 20px;
 }
+
+#header > h1 > main-header-text{
+    position: absolute
+}
+
